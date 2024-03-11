@@ -42,4 +42,3 @@ usermod -aG sudo minikube
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
-# Log out and log back in (or restart your system) for the group membership changes to take effect
