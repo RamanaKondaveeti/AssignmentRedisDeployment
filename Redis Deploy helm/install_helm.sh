@@ -1,5 +1,6 @@
 # Error: Kubernetes cluster unreachable: Get "https://192.168.49.2:8443/version": dial tcp 192.168.49.2:8443: connect: no route to host
 # To bypas this we need to restart minikube
+chmod 775 -R /tmp/
 
 minikube start --force
 
